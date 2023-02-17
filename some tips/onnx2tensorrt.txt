@@ -1,0 +1,1 @@
+/usr/src/tensorrt/bin/trtexec --onnx=./end2end.onnx --plugins=../../mmdeploy/lib/libmmdeploy_tensorrt_ops.so --workspace=6000 --fp16 --saveEngine=end2end.engine
